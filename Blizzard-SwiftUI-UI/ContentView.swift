@@ -69,6 +69,7 @@ struct ContentView: View {
                 HStack {
                     button(title: "Install Zebra", isOn: $isSelectedPackage, value: 0, isStepper: true)
                     button(title: "Install Sileo", isOn: $isSelectedPackage, value: 1, isStepper: true)
+                    button(title: "Install Installer 5", isOn: $isSelectedPackage, value: 0, isStepper: true)
                 }
 
                 Toggle("Uninstall Blizzard JB", isOn: $uninstall)
